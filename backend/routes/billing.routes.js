@@ -11,4 +11,4 @@ finalRouter.route("/billings").get(handleGetBillings);
 finalRouter.route("/:invoiceId").get(handleSearchInvoice);
 finalRouter.route("/add").post(handlePostBill);
 
-module.exports = finalRouter;
+module.exports = finalRouter
